@@ -1,8 +1,8 @@
-# java-methodology-practice
+# practice-java-methodology
 
 **자바로 배우는 개발 방법론 (OOP + FP + Java 21)** 강좌의 실습 코드 저장소.
 
-> 커리큘럼 원본: ita vault `05_CONTENT/30_LECTURE/draft_자바로_배우는_개발방법론.md` — Curriculum 섹션의 실습 1~4와 1:1 대응.
+> 강좌 커리큘럼의 실습 1~4와 1:1 대응한다.
 
 ## 요구 환경
 
@@ -32,6 +32,14 @@ src/main/java/com/hancof/methodology/
 | 4. 캡스톤 | 4-8 | `part4/capstone/after`에 record + FCC + 파이프라인 재구성 | `CapstoneCompletionTest` — after에 클래스가 생기면 "모든 필드 final" 규칙 자동 검사 |
 
 각 `after` 패키지의 `package-info.java`에 상세 목표가 있다.
+
+## 함께 보는 저장소
+
+| 저장소 | 무엇 |
+|---|---|
+| **practice-java-methodology** (여기) | 이 강좌의 실습 대상 — `before` 코드와 빈 `after` 자리 |
+| [reference-spring-onion](https://github.com/antksk/reference-spring-onion) | 실습이 지향하는 "정상 코드" 레퍼런스 (Spring · 어니언) |
+| [practice-refactoring-thinking](https://github.com/antksk/practice-refactoring-thinking) | 후속 강좌의 실습. 이 저장소의 캡스톤 `after` 가 6개월 뒤 부패한 상태에서 시작한다 |
 
 ## 규칙
 
