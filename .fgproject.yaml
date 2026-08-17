@@ -1,0 +1,30 @@
+schema_version: "0.1"
+id: practice-java-methodology
+intent: Java Methodology 강의 Part 1~4의 before 코드와 characterization 테스트를 수강생 실습용으로 고정 보관
+platform: jvm-gradle
+role: teaching-asset
+lifecycle: active
+maturity: mvp
+
+evolution:
+  axis: none
+  current: frozen
+  target: null
+
+gates:
+  exempt: true
+  exempt_reason: 부패한 before 코드를 의도적으로 유지한다. 린트·아키텍처 게이트는 교재의 목적 자체를 파괴한다
+
+notes: >
+  maturity 계단(spike/mvp/hardening/production)이 이 프로젝트에 맞지 않는다.
+  교육 자산은 "완성"이지 "미성숙"이 아니다. 스키마 결함 F8 참조.
+
+  승격 근거 (2026-08-17): v1-b 에서 이 저장소를 probe 로 남긴 이유는 "폐기 예정 —
+  나중에 강의 샘플을 새로 생성한다"(사용자 확인 2026-07-30)였다. 그 전제가 만료됐다.
+  폐기 대신 공개 저장소로 전환됐고 운영 중인 강좌의 실습 대상이다.
+
+  공개 판단 (2026-08-17): 수강생이 clone 하는 것이 이 저장소의 용도라 공개가 목적 자체다.
+  전환과 함께 practice- 접두어로 rename 했고 README 에서 비공개 커리큘럼 원천을 가리키는
+  경로를 걷어냈다 — 비공개 저장소를 가리키는 링크는 읽는 사람에게 닿지 않고 내부 구조만 드러낸다.
+  점검 항목·잔여 위험(히스토리에 남은 옛 경로)은 fg-project docs/public-exposure.md 에 있다.
+  현재 가시성 자체는 관측값이므로 여기 적지 않는다 — fleet.yaml 이 원천이다.
